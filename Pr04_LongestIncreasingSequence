@@ -14,7 +14,7 @@ public class Pr04_LongestIncreasingSequence {
 		Scanner scan = new Scanner(System.in);
 		String str = scan.nextLine();
 		String[] split = str.split(" ");
-		Integer[] numbers = new Integer[split.length];
+		int[] numbers = new int[split.length];
 		ArrayList<Integer> displayLonglest = new ArrayList<Integer>();
 		int count = 1;  //брояч на числа на един ред
 		int countS = 1;	// втори броят за запазване на най-гол. count
